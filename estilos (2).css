@@ -1,0 +1,29 @@
+#menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#menu #item{
+	float: left;
+}
+#menu #item a{
+	background: rgba(60,179,113,1);
+	color:rgba(255,255,255,1);
+	padding: 12px 24px;
+	display: block;
+	font-family: broadway;
+	font-size: 24px;
+	text-decoration: none;
+}
+#menu #desplegar{
+	display: none;
+	position: absolute;
+	min-width: 220px;
+}
+#menu #item a:hover{
+	background: rgba(0,102,204,1);
+	color:rgba(0,204,255,1);
+}
+#menu #item:hover #desplegar{
+	display: block;
+}

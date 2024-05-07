@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>Mi Menú</title>
+	<link rel="stylesheet" type="text/css" href="styles/estilo1.css">
+	<style>
+		body{#menu ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	}
+
+#menu #item{
+	float: left;
+}
+#menu #item a{
+	background: #CC6CE7;
+	color: #5DE2E7;
+	padding: 12px 24px;
+	display: block;
+	font-family: Calibri;
+	font-size: 24px;
+	text-decoration: none;
+}
+#menu #desplegar{
+	display: none;
+}
+#menu #item a:hover{
+	background: pink;
+
+}
+#menu #item:hover #desplegar{
+	display: block;
+}background: red; padding: 30px 600px;
+
+		}
+	</style>
+</head>
+<body>
+	<div id="menu">
+		
+		<ul>
+			<li id="item"><a href="#">Quienes somos</a>
+				<ul id="desplegar">
+					<li><a href="#">Historia</a></li>
+					<li><a href="#">Misión</a></li>
+					<li><a href="#">Visión</a></li>
+				</ul>
+			</li>
+			<li id="item"><a href="#">Sucursales</a>
+					<ul id="desplegar">
+					<li><a href="#">Centro</a></li>
+					<li><a href="#">Sur</a></li>
+					<li><a href="#">Norte</a></li>
+				</ul>
+			</li>
+			<li id="item"><a href="#">Misión</a>
+					<ul id="desplegar">
+					<li><a href="#">A corto plazo</a></li>
+					<li><a href="#">A largo plazo</a></li>
+					
+				</ul>
+			</li>
+             <li id="item"><a href="#">Contacto</a>
+					<ul id="desplegar">
+					<li><a href="#">Whatsapp</a></li>
+					<li><a href="#">Correo</a></li>
+					
+				</ul>
+			</li>
+			
+		</ul>
+	</div>
+
+</body>
+</html>
